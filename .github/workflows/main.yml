@@ -17,5 +17,5 @@ jobs:
       - uses: actions/checkout@v3
       # Runs a single command using the runners shell
       - name: Run specific test file
-        run: |
+        run: 
             python -m unittest -s tests -p '*Tests.py' -v
